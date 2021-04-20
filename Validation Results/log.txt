@@ -1,0 +1,451 @@
+Epoch 0/34
+----------
+train Loss: 0.0350 Acc: 0.5520
+val Loss: 0.0264 Acc: 0.6721
+Epoch 1/34
+----------
+train Loss: 0.0260 Acc: 0.6760
+val Loss: 0.0283 Acc: 0.6521
+Running test mode
+Test Loss: 0.0287 Acc: 0.6475
+Test confusion matrix:
+[[709  35 224 197 109]
+ [ 59 621 118  45  86]
+ [ 12   1 416   7  14]
+ [ 72  13  52 254  58]
+ [ 34   7  41  23 217]]
+Epoch 2/34
+----------
+train Loss: 0.0234 Acc: 0.7130
+val Loss: 0.0212 Acc: 0.7391
+Running test mode
+Test Loss: 0.0216 Acc: 0.7363
+Test confusion matrix:
+[[955  49  45 162  63]
+ [ 83 731  29  42  44]
+ [ 46  14 359  11  20]
+ [128  23   8 257  33]
+ [ 43  21  21  18 219]]
+Epoch 3/34
+----------
+train Loss: 0.0213 Acc: 0.7354
+val Loss: 0.0204 Acc: 0.7513
+Running test mode
+Test Loss: 0.0208 Acc: 0.7541
+Test confusion matrix:
+[[1114   46   36   53   25]
+ [ 111  735   35   13   35]
+ [  54   13  363    5   15]
+ [ 215   27   14  167   26]
+ [  71   17   19   12  203]]
+Epoch 4/34
+----------
+train Loss: 0.0197 Acc: 0.7579
+val Loss: 0.0237 Acc: 0.7115
+Running test mode
+Test Loss: 0.0238 Acc: 0.7103
+Test confusion matrix:
+[[735 165 102 183  89]
+ [ 18 823  34  17  37]
+ [ 17  19 392   8  14]
+ [ 64  56  24 263  42]
+ [ 25  36  23  19 219]]
+Epoch 5/34
+----------
+train Loss: 0.0186 Acc: 0.7739
+val Loss: 0.0233 Acc: 0.7130
+Running test mode
+Test Loss: 0.0240 Acc: 0.7170
+Test confusion matrix:
+[[821  68  63 173 149]
+ [ 41 727  32  36  93]
+ [ 25   9 368   8  40]
+ [ 78  15  12 278  66]
+ [ 22  11  11  17 261]]
+Epoch 6/34
+----------
+train Loss: 0.0171 Acc: 0.7941
+val Loss: 0.0212 Acc: 0.7568
+Running test mode
+Test Loss: 0.0210 Acc: 0.7611
+Test confusion matrix:
+[[927  97  52 172  26]
+ [ 37 806  25  36  25]
+ [ 30  19 376  11  14]
+ [ 96  24  13 299  17]
+ [ 41  28  22  33 198]]
+Epoch 7/34
+----------
+train Loss: 0.0161 Acc: 0.8067
+val Loss: 0.0222 Acc: 0.7298
+Running test mode
+Test Loss: 0.0231 Acc: 0.7278
+Test confusion matrix:
+[[833  63  63 196 119]
+ [ 58 733  38  40  60]
+ [ 26   9 378   9  28]
+ [ 79  15  17 300  38]
+ [ 23  11  15  25 248]]
+Epoch 8/34
+----------
+train Loss: 0.0149 Acc: 0.8168
+val Loss: 0.0233 Acc: 0.7351
+Running test mode
+Test Loss: 0.0236 Acc: 0.7363
+Test confusion matrix:
+[[810 106  64 198  96]
+ [ 38 790  27  26  48]
+ [ 28  16 377   6  23]
+ [ 66  27  14 306  36]
+ [ 24  16  17  27 238]]
+Epoch 9/34
+----------
+train Loss: 0.0137 Acc: 0.8339
+val Loss: 0.0220 Acc: 0.7589
+Running test mode
+Test Loss: 0.0225 Acc: 0.7491
+Test confusion matrix:
+[[927  57  72 175  43]
+ [ 65 760  40  32  32]
+ [ 26  13 382   8  21]
+ [100  21  16 293  19]
+ [ 38  21  32  28 203]]
+Epoch 10/34
+----------
+train Loss: 0.0130 Acc: 0.8437
+val Loss: 0.0218 Acc: 0.7603
+Running test mode
+Test Loss: 0.0219 Acc: 0.7626
+Test confusion matrix:
+[[955  67  50 166  36]
+ [ 68 764  31  28  38]
+ [ 28  11 385   8  18]
+ [107  21  12 292  17]
+ [ 36  22  23  26 215]]
+Epoch 11/34
+----------
+train Loss: 0.0121 Acc: 0.8530
+val Loss: 0.0234 Acc: 0.7493
+Running test mode
+Test Loss: 0.0240 Acc: 0.7494
+Test confusion matrix:
+[[935  41  70 163  65]
+ [ 81 721  48  25  54]
+ [ 28   9 393   6  14]
+ [ 92  20  17 286  34]
+ [ 33  11  25  22 231]]
+Epoch 12/34
+----------
+train Loss: 0.0113 Acc: 0.8641
+val Loss: 0.0253 Acc: 0.7290
+Running test mode
+Test Loss: 0.0255 Acc: 0.7339
+Test confusion matrix:
+[[806  64  60 279  65]
+ [ 41 767  30  42  49]
+ [ 22  18 376  11  23]
+ [ 57  14  14 331  33]
+ [ 23  17  19  30 233]]
+Epoch 13/34
+----------
+train Loss: 0.0103 Acc: 0.8774
+val Loss: 0.0295 Acc: 0.6988
+Running test mode
+Test Loss: 0.0296 Acc: 0.7027
+Test confusion matrix:
+[[722  46 105 368  33]
+ [ 46 729  55  61  38]
+ [ 16   8 399  15  12]
+ [ 51  14  20 346  18]
+ [ 24  14  29  45 210]]
+Epoch 14/34
+----------
+train Loss: 0.0098 Acc: 0.8815
+val Loss: 0.0271 Acc: 0.7255
+Running test mode
+Test Loss: 0.0275 Acc: 0.7272
+Test confusion matrix:
+[[779 225  69 154  47]
+ [ 16 841  26  19  27]
+ [ 16  27 389   6  12]
+ [ 80  53  22 265  29]
+ [ 27  33  24  22 216]]
+Epoch 15/34
+----------
+train Loss: 0.0089 Acc: 0.8942
+val Loss: 0.0237 Acc: 0.7574
+Running test mode
+Test Loss: 0.0248 Acc: 0.7599
+Test confusion matrix:
+[[932  73  52 180  37]
+ [ 66 760  31  42  30]
+ [ 31  12 384   8  15]
+ [ 88  16  16 314  15]
+ [ 41  20  24  25 212]]
+Epoch 16/34
+----------
+train Loss: 0.0082 Acc: 0.9043
+val Loss: 0.0269 Acc: 0.7304
+Running test mode
+Test Loss: 0.0275 Acc: 0.7334
+Test confusion matrix:
+[[825  36  79 281  53]
+ [ 64 728  50  49  38]
+ [ 20   7 400  11  12]
+ [ 62  13  17 334  23]
+ [ 31  13  22  32 224]]
+Epoch 17/34
+----------
+train Loss: 0.0081 Acc: 0.9040
+val Loss: 0.0272 Acc: 0.7545
+Running test mode
+Test Loss: 0.0285 Acc: 0.7468
+Test confusion matrix:
+[[899  66  73 187  49]
+ [ 61 745  47  32  44]
+ [ 30   4 387   8  21]
+ [ 91  16  19 298  25]
+ [ 28  17  21  28 228]]
+Epoch 18/34
+----------
+train Loss: 0.0076 Acc: 0.9121
+val Loss: 0.0272 Acc: 0.7586
+Running test mode
+Test Loss: 0.0286 Acc: 0.7579
+Test confusion matrix:
+[[912  85  46 205  26]
+ [ 51 791  29  30  28]
+ [ 36  17 378   6  13]
+ [ 90  21  12 306  20]
+ [ 35  23  20  36 208]]
+Epoch 19/34
+----------
+train Loss: 0.0068 Acc: 0.9203
+val Loss: 0.0282 Acc: 0.7551
+Running test mode
+Test Loss: 0.0295 Acc: 0.7488
+Test confusion matrix:
+[[872  72  57 215  58]
+ [ 53 773  25  34  44]
+ [ 28  12 376   9  25]
+ [ 81  20   9 308  31]
+ [ 25  13  16  33 235]]
+Epoch 20/34
+----------
+train Loss: 0.0049 Acc: 0.9462
+val Loss: 0.0280 Acc: 0.7551
+Running test mode
+Test Loss: 0.0292 Acc: 0.7526
+Test confusion matrix:
+[[875  69  71 212  47]
+ [ 56 773  32  34  34]
+ [ 25   9 388   8  20]
+ [ 81  16  15 313  24]
+ [ 25  15  22  32 228]]
+Epoch 21/34
+----------
+train Loss: 0.0042 Acc: 0.9555
+val Loss: 0.0291 Acc: 0.7565
+Running test mode
+Test Loss: 0.0305 Acc: 0.7491
+Test confusion matrix:
+[[862  58  60 246  48]
+ [ 57 768  31  35  38]
+ [ 30   9 381   8  22]
+ [ 75  15  12 322  25]
+ [ 26  14  17  33 232]]
+Epoch 22/34
+----------
+train Loss: 0.0040 Acc: 0.9588
+val Loss: 0.0282 Acc: 0.7635
+Running test mode
+Test Loss: 0.0295 Acc: 0.7605
+Test confusion matrix:
+[[905  66  50 207  46]
+ [ 56 779  28  32  34]
+ [ 30   9 382   8  21]
+ [ 84  17  12 309  27]
+ [ 27  16  19  31 229]]
+Epoch 23/34
+----------
+train Loss: 0.0037 Acc: 0.9593
+val Loss: 0.0279 Acc: 0.7725
+Running test mode
+Test Loss: 0.0294 Acc: 0.7716
+Test confusion matrix:
+[[958  59  50 167  40]
+ [ 63 772  30  29  35]
+ [ 33   8 384   7  18]
+ [ 93  16  13 303  24]
+ [ 31  16  19  31 225]]
+Epoch 24/34
+----------
+train Loss: 0.0035 Acc: 0.9652
+val Loss: 0.0296 Acc: 0.7554
+Running test mode
+Test Loss: 0.0311 Acc: 0.7538
+Test confusion matrix:
+[[880  68  58 225  43]
+ [ 58 769  32  34  36]
+ [ 28   8 387   8  19]
+ [ 76  18  13 318  24]
+ [ 27  15  20  33 227]]
+Epoch 25/34
+----------
+train Loss: 0.0034 Acc: 0.9643
+val Loss: 0.0294 Acc: 0.7641
+Running test mode
+Test Loss: 0.0310 Acc: 0.7588
+Test confusion matrix:
+[[912  69  64 185  44]
+ [ 59 768  35  30  37]
+ [ 27   8 389   7  19]
+ [ 87  16  16 305  25]
+ [ 29  14  23  32 224]]
+Epoch 26/34
+----------
+train Loss: 0.0035 Acc: 0.9606
+val Loss: 0.0292 Acc: 0.7603
+Running test mode
+Test Loss: 0.0306 Acc: 0.7579
+Test confusion matrix:
+[[896  73  64 196  45]
+ [ 57 775  30  30  37]
+ [ 25  10 386   7  22]
+ [ 85  16  15 307  26]
+ [ 26  15  20  30 231]]
+Epoch 27/34
+----------
+train Loss: 0.0034 Acc: 0.9617
+val Loss: 0.0290 Acc: 0.7684
+Running test mode
+Test Loss: 0.0306 Acc: 0.7646
+Test confusion matrix:
+[[922  73  47 180  52]
+ [ 57 780  26  28  38]
+ [ 30  10 379   8  23]
+ [ 89  16  12 305  27]
+ [ 26  15  18  31 232]]
+Epoch 28/34
+----------
+train Loss: 0.0032 Acc: 0.9667
+val Loss: 0.0296 Acc: 0.7615
+Running test mode
+Test Loss: 0.0311 Acc: 0.7553
+Test confusion matrix:
+[[891  77  58 196  52]
+ [ 57 779  26  30  37]
+ [ 29  12 380   8  21]
+ [ 85  17  14 306  27]
+ [ 26  15  19  32 230]]
+Epoch 29/34
+----------
+train Loss: 0.0032 Acc: 0.9649
+val Loss: 0.0305 Acc: 0.7562
+Running test mode
+Test Loss: 0.0319 Acc: 0.7541
+Test confusion matrix:
+[[888  64  61 222  39]
+ [ 58 773  29  39  30]
+ [ 27  10 388   8  17]
+ [ 81  14  16 318  20]
+ [ 30  15  26  36 215]]
+Epoch 30/34
+----------
+train Loss: 0.0032 Acc: 0.9649
+val Loss: 0.0314 Acc: 0.7496
+Running test mode
+Test Loss: 0.0326 Acc: 0.7471
+Test confusion matrix:
+[[857  69  69 221  58]
+ [ 49 771  33  39  37]
+ [ 24  10 388   8  20]
+ [ 78  15  16 314  26]
+ [ 24  14  24  32 228]]
+Epoch 31/34
+----------
+train Loss: 0.0031 Acc: 0.9669
+val Loss: 0.0293 Acc: 0.7716
+Running test mode
+Test Loss: 0.0309 Acc: 0.7646
+Test confusion matrix:
+[[930  75  49 178  42]
+ [ 56 784  28  28  33]
+ [ 30  11 381   8  20]
+ [ 94  18  13 299  25]
+ [ 30  16  21  31 224]]
+Epoch 32/34
+----------
+train Loss: 0.0031 Acc: 0.9666
+val Loss: 0.0297 Acc: 0.7623
+Running test mode
+Test Loss: 0.0314 Acc: 0.7593
+Test confusion matrix:
+[[902  67  51 199  55]
+ [ 55 774  29  34  37]
+ [ 31  10 381   8  20]
+ [ 81  16  14 313  25]
+ [ 25  15  21  31 230]]
+Epoch 33/34
+----------
+train Loss: 0.0031 Acc: 0.9673
+val Loss: 0.0303 Acc: 0.7562
+Running test mode
+Test Loss: 0.0319 Acc: 0.7518
+Test confusion matrix:
+[[878  68  56 212  60]
+ [ 55 772  31  35  36]
+ [ 29   9 384   8  20]
+ [ 80  14  16 312  27]
+ [ 25  15  22  32 228]]
+Epoch 34/34
+----------
+train Loss: 0.0028 Acc: 0.9704
+val Loss: 0.0306 Acc: 0.7557
+Running test mode
+Test Loss: 0.0321 Acc: 0.7553
+Test confusion matrix:
+[[879  74  56 224  41]
+ [ 55 782  26  37  29]
+ [ 28  11 387   8  16]
+ [ 79  17  13 318  22]
+ [ 28  16  24  34 220]]
+Training complete in 102m 34s
+Best val Acc: 0.772490
+
+Test confusion matrix:
+          neutral	happiness	surprise	sadness	anger
+
+neutral     879       74         56           224     41                  
+happiness   55       782         26            37     29   
+surprise    28        11        387             8     16
+sadness     79        17         13           318     22
+anger       28        16         24            34    220
+
+
+train data distribution
+
+neutral - 4152
+happiness - 3769
+surprise _ 3583
+sadness - 3559
+anger - 2476
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
