@@ -41,7 +41,7 @@ MODEL_DIR = "/content/drive/My Drive/FER/models/"
 exp_name = "exp"
 SAVE_FOLDER = "/content/drive/My Drive/FER/Validation Results/"
 MODEL_PATH = MODEL_DIR + exp_name
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.01
 NUM_EPOCHS = 80
 device = "cuda"  #cpu
 
@@ -102,25 +102,7 @@ class FERPlusDataset(dataset.Dataset):
             # Select only 50% of neutral ~ 4k images
             df_samples_1 = random.Random(1).sample(df_1,
                                                       int(len(df_1) * 0.5))
-
-            df_5 = sorted(self.data_df[
-                self.data_df['actual_label'] == 5].index.values)
-            df_6 = sorted(self.data_df[
-                self.data_df['actual_label'] == 6].index.values)
-            df_7 = sorted(self.data_df[
-                self.data_df['actual_label'] == 7].index.values)
-            self.data_df = self.data_df.drop(df_samples_0 +
-                                                         df_samples_1 +
-                                                         df_5 + df_6 + df_7)
-
-        elif mode in ["val", "test"]:
-            df_5 = sorted(self.data_df[
-                self.data_df['actual_label'] == 5].index.values)
-            df_6 = sorted(self.data_df[
-                self.data_df['actual_label'] == 6].index.values)
-            df_7 = sorted(self.data_df[
-                self.data_df['actual_label'] == 7].index.values)
-            self.data_df = self.data_df.drop(df_5 + df_6 + df_7)
+            self.data_df = self.data_df.drop(df_samples_0 + df_samples_1)
 
         self.image_file_names = self.data_df['img_name'].values
 
@@ -164,19 +146,19 @@ if __name__ == '__main__':
         transforms.RandomAffine(degrees=10),
         transforms.Resize(224),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
     ])
 
     val_transform = transforms.Compose([
         transforms.Resize(224),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
     ])
 
     test_transform = transforms.Compose([
         transforms.Resize(224),
         transforms.ToTensor(),
-        transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        transforms.Normalize([0.5, 0.5, 0.5], [0.5, 0.5, 0.5])
     ])
 
     train_ds = FERPlusDataset("/content/drive/My Drive/FER/Data/Images/", mode="train", transforms=train_transform)
@@ -357,7 +339,7 @@ if __name__ == '__main__':
     model = vgg16(pretrained=True)
     num_ftrs = model.classifier[3].out_features
 
-    model.classifier = nn.Sequential(nn.Linear(7 * 7 * 512, 1024),
+    model.classifier = nn.Sequential(nn.Linear(5 * 5 * 512, 1024),
                                      nn.ReLU(),
                                      nn.Dropout(0.25),
                                      nn.Linear(1024, 1024),
@@ -373,10 +355,10 @@ if __name__ == '__main__':
     criterion = nn.CrossEntropyLoss()
 
     # # Observe that all parameters are being optimized
-    optimizer = optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=0.9)
+    optimizer = optim.SGD(model.parameters(), lr=LEARNING_RATE, momentum=0.8)
 
     # # Decay LR by a factor of 0.1 every 20 epochs
-    lr = lr_scheduler.StepLR(optimizer, step_size=20, gamma=0.1)
+    lr = lr_scheduler.StepLR(optimizer, step_size=25, gamma=0.1)
 
     model,train_acc,test_acc = train_model(model,
                         criterion,
